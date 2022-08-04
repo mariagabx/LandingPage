@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #0A1128;
+    --white-color: #FFFFFF;
+    --gap: 3rem;
+    --light-gray-color: #EEEEEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Monteserrat', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 5.5rem;
+    
+}
+
+h3 {
+    font-size: 5rem;
+    
+}
+
+h4 {
+    font-size: 4.5rem;
+    
+}
+
+h5 {
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-bg {
+    background-image: url(https://raw.githubusercontent.com/luizomf/landing-page-cursojs/185c0bc9daa4fcf1cb213ea70ffe4d722c326e28/assets/img/main-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.white-bg {
+    background: var(--white-color);
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: 0.1rem solid var(--light-gray-color);
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu h1 {
+    font-size: 2.3rem;
+    color: var(--primary-color);
+}
+
+.menu h1 a {
+    color: inherit;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 2rem;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
